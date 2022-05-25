@@ -1,1 +1,1 @@
-# Distributed Clipboard - Final Project
+# Distributed Clipboard Tool
