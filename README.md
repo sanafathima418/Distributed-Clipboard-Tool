@@ -5,7 +5,7 @@ A multi-threaded, micro-service based application that syncs clipboard contents 
 
 
 ## Architecture Diagram
-<img width="384" alt="image" src="https://user-images.githubusercontent.com/29837264/177219032-f0124126-3d57-4ecd-a3ac-92febf79000e.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/29837264/177219032-f0124126-3d57-4ecd-a3ac-92febf79000e.png">
 
 
 ## Componenets
