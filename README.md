@@ -7,7 +7,7 @@ A multi-threaded, micro-service based application that syncs clipboard contents 
 - Back end: Python
 - Databases: Redis, PostgreSQL
 - API: REST
-- Cloud: GKE
+- Cloud: GKE (Google Kubernetes Engine)
 
 
 ## Architecture Diagram
