@@ -1,4 +1,4 @@
-# Distributed Clipboard Application
+# Distributed Clipboard Manager
 
 
 A multi-threaded, micro-service based application that syncs clipboard contents across various devices. It is a zero trust system that authenticates and authorizes users using OAuth 2.0 tokens where the communication between client and server is secured by HTTPS with cert-manager used to simplify the process of obtaining, renewing and using TLS certificates.
@@ -17,7 +17,7 @@ A multi-threaded, micro-service based application that syncs clipboard contents 
 ## Componenets
 
 **REST Client:** Listener that captures copy and paste requests and forwards the same to the server. <br /> On copy - Clipboard contents are copied and transferred to the server. <br /> On Paste - Copied content is fetched from the server.<br />
-**REST Server** Accepts requests from client to store copied content or transfer the copied contents in the cache<br />
+**REST Server** Daemon process running in the background that accepts requests from client to store copied content or transfer the copied contents in the cache<br />
 **Kubernetes:** For deploying the application and facilitating horizontal scaling along with load balancing <br />
 **Redis Cache:** Stores user data: UserID, Payload(data copied) <br />
 **PostgreSQL Database:** Store user credentials(UserID, Password) for authentication <br />
